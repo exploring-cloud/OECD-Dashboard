@@ -6,7 +6,7 @@ import plotly.express as px
 import statsmodels
 
 # Folder where the data files are stored
-data_folder = r'C:/Users/samir/Documents/03 - ExploringCloud/20 - Python Scripts/02 - Example, OECD/01 - Datasets'
+data_folder = r'[PATH]/01 - Datasets'
 
 # Initialize the Dash app with suppress_callback_exceptions=True
 app = dash.Dash(__name__, suppress_callback_exceptions=True)
